@@ -43,5 +43,8 @@ return [
                 }
             ],
         ],
+        'fixtures' => [
+            'MyFixture' => __DIR__ . '/../../src/CodeEmailMKT/Infrastructure/Persistence/Doctrine/DataFixture'
+        ]
     ]
 ];
