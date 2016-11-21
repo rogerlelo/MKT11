@@ -36,6 +36,4 @@ return [
             \Zend\Authentication\AuthenticationService::class => 'doctrine.authenticationservice.orm_default'
         ],
     ],
-      'debug' => true,
-    'config_cache_enabled' => false,
 ];
