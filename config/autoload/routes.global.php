@@ -52,7 +52,7 @@ return [
         [ ///////////////////////////////////////////////
             'name' => 'tag.list',
             'path' => '/admin/tags',
-            'middleware' => TagListPageAction::class,
+            'middleware' => Action\Tag\TagListPageAction::class,
             'allowed_methods' => ['GET'],
         ], ////////////////////////////////////////////////////////////
         [
